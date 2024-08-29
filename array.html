@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frugt</title>
+</head>
+
+<body>
+    <h1>PLAYLISTE</h1>
+    <ul></ul>
+
+    <script>
+        const liste = document.querySelector("ul");
+
+        const frugter = ["Die with a smile, Bruno Mars & Lady Gaga", "Beundrer, ArtigeArdit", "One step at a time, Jordin Sparks", "Gør mig lykkelig, Barbara Moleko", "Tilbage, Annika", "Girls need love, Summer Walker", "Leave (Get Out), JoJo", "Booty up, Benny Jamz & Gilli", "Jaloux, August Høyen", "Lækker, Nik & Jay"]
+
+        frugter.forEach(putListe);
+
+        function putListe(element) {
+            console.log(element)
+            liste.innerHTML += "<li>" + element + "</li>"
+        }
+    </script>
+</body>
+
+</html>
